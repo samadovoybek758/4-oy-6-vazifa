@@ -200,17 +200,88 @@
 
 
 // 18-masala
-function biggest(a,b,c) {
-    if (a>b && a>c) {
-        return a
-    }if (b>a && b>c) {
-        return b
-    }if (c>b && c>a) {
-        return c
+// function biggest(a,b,c) {
+//     if (a>b && a>c) {
+//         return a
+//     }if (b>a && b>c) {
+//         return b
+//     }if (c>b && c>a) {
+//         return c
+//     }
+// }
+// let a = +prompt("a sonni kiritng");
+// let b = +prompt("b sonni kiritng");
+// let c = +prompt("c sonni kiritng");
+// console.log(biggest(a,b,c));
+
+
+
+// 19-masala
+// function smalllest(a,b,c) {
+//     if (a<b && a<c) {
+//         return a
+//     }if (b<a && b<c) {
+//         return b
+//     }if (c<b && c<a) {
+//         return c
+//     }
+// }
+// let a = +prompt("a sonni kiritng");
+// let b = +prompt("b sonni kiritng");
+// let c = +prompt("c sonni kiritng");
+// console.log(smalllest(a,b,c));
+
+
+
+// 20-masala
+// function num(a) {
+//     if (a>10) {
+//         return "katta"
+//     }else{
+//         return "kichik"
+//     }
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+// 21-masala
+// function farq(a,b) {
+//     if ((a+b)%2==0) {
+//         return "true"
+//     }else{
+//         return "false"
+//     }
+// }
+// let a = +prompt("a sonni kiritng");
+// let b = +prompt("b sonni kiritng");
+// console.log(farq(a,b));
+
+
+
+// 22-masala
+// function num(a) {
+//     if (a%5==0) {
+//         return "true"
+//     }else{
+//         return "false"
+//     }
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+// 23-masala
+function farq(a,b) {
+    if (a>b) {
+        return "true"
+    }else{
+        return "false"
     }
 }
-let a = +prompt("a sonni kiritng");
-let b = +prompt("b sonni kiritng");
-let c = +prompt("c sonni kiritng");
-console.log(biggest(a,b,c));
+let a = +prompt("1-sonni kiritng");
+let b = +prompt("2-sonni kiritng");
+console.log(farq(a,b));
 
