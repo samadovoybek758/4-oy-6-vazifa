@@ -181,6 +181,11 @@
 
 
 // 16-masala
+// function kvadrat(a) {
+//     return Math.sqrt (a)
+// };
+// let a = +prompt("sonni kiritng");
+// console.log(kvadrat(a));
 
 
 
@@ -274,14 +279,146 @@
 
 
 // 23-masala
-function farq(a,b) {
-    if (a>b) {
-        return "true"
-    }else{
-        return "false"
+// function farq(a,b) {
+//     if (a>b) {
+//         return "true"
+//     }else{
+//         return "false"
+//     }
+// }
+// let a = +prompt("1-sonni kiritng");
+// let b = +prompt("2-sonni kiritng");
+// console.log(farq(a,b));
+
+
+
+// 24-masala
+// function num(a) {
+//     if (a%7==0) {
+//         return "true"
+//     }else{
+//         return "false"
+//     }
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+//25-masala
+// function num(a) {
+//     return 10**a
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+// 26-masala
+// function urta(a,b) {
+//     return (a+b)/2
+// }
+// let a = +prompt("1-sonni kiritng");
+// let b = +prompt("2-sonni kiritng");
+// console.log(urta(a,b));
+
+
+
+// 27-masala
+// function num(a) {
+//     if (a>100){
+//       return "Katta"
+//     }else{
+//         return "Kichik"
+//     }
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+// 28-masala
+// function num(a) {
+//     if (a%2==0){
+//       return "true"
+//     }else{
+//         return "false"
+//     }
+// }
+// let a = +prompt("sonni kiritng");
+// console.log(num(a));
+
+
+
+
+// 29-masala
+// function urta(a,b) {
+//     return Math.sqrt(a*b)
+// }
+// let a = +prompt("1-sonni kiritng");
+// let b = +prompt("2-sonni kiritng");
+// console.log(urta(a,b));
+
+
+
+// 30-masala
+// function res(a,b,c) {
+//     if (a+b==c) {
+//         return 'true'
+//     }else{
+//         return 'false'
+//     }
+// }
+// let a = +prompt("a sonni kiritng");
+// let b = +prompt("b sonni kiritng");
+// let c = +prompt("c sonni kiritng");
+// console.log(res(a,b,c));
+
+
+// for yordamida ishladnadigan masalalar
+// 1-masala
+
+// let yig =0;
+
+// for (let i = 1; i <=10; i++) {
+//     yig = yig+i;
+// }
+// console.log(yig);
+
+
+
+// 2-masala
+// let kup =1;
+// for (let i = 1; i <=5; i++) {
+//     yig = yig*i;
+// }
+// console.log(kup);
+
+
+
+// 3-masala
+// let a = +prompt("sonni kiritng");
+// let kup = 1
+// for (let i = 1; i <= a; i++) {
+//     kup =kup*i
+// }
+// console.log(kup);
+
+
+
+// 4-masala
+// let a = +prompt("sonni kiritng");
+// for (let i = 1; i <= a; i++) {
+//     if (i%2==0) {
+//         console.log(i);
+//     }
+// }
+
+
+// 5-masala
+let a = +prompt("sonni kiritng");
+for (let i = 1; i <= a; i++) {
+    if (i%2==1) {
+        console.log(i);
     }
 }
-let a = +prompt("1-sonni kiritng");
-let b = +prompt("2-sonni kiritng");
-console.log(farq(a,b));
-
